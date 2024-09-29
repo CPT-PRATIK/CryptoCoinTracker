@@ -1,0 +1,6 @@
+package com.example.crytocointracker.models
+
+data class Data(
+    val cryptoCurrencyList: List<CryptoCurrency>,
+    val totalCount: String
+)
